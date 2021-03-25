@@ -33,7 +33,7 @@ _session = requests.session()
 
 
 
-nadya = LINE('tumz.0971272485@gmail.com','tumz2530')
+nadya = LINE('slynq2@gmail.com','36091vwz')
 #nadya = LINE('FXWjBbyguzEO1gLgTW8mcicVcgiav0zGDSwdnuk37Ss')
 nadya.log("Auth Token : " + str(nadya.authToken))
 channelToken = nadya.getChannelResult()
@@ -74,9 +74,9 @@ nadyaMID = nadya.getProfile().mid
 KAC = [nadya]
 
 Bots = [nadyaMID]
-creator = ["u24d5f93f9113c991342c079005467e2f",nadyaMID]
-Owner = ["uffa9e495215bb46dcece4469ecb53e2d","u63b430da80bd53f3f3138e27922f9880",nadyaMID]
-admin = ["uffa9e495215bb46dcece4469ecb53e2d","u63b430da80bd53f3f3138e27922f9880",nadyaMID]
+creator = ["u0dedae6e6ff204f52f2e4a096630ea82",nadyaMID]
+Owner = ["u0dedae6e6ff204f52f2e4a096630ea82","u0dedae6e6ff204f52f2e4a096630ea82",nadyaMID]
+admin = ["u0dedae6e6ff204f52f2e4a096630ea82","u0dedae6e6ff204f52f2e4a096630ea82",nadyaMID]
 loop = asyncio.get_event_loop()
 listToken = ['desktopmac','desktopwin','iosipad','chromeos','win10']
 mc = {"wr":{}}
